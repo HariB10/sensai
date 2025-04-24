@@ -9,8 +9,8 @@ import { Toaster } from "sonner";
 const inter=Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Sensai - AI Career Coach",
-  description: "Sensai provides personalized career guidance, job recommendations, and skill-building strategies using AI-driven insights to help you achieve your professional goals efficiently",
+  title: "Tensai - AI Career Coach",
+  description: "Tensai provides personalized career guidance, job recommendations, and skill-building strategies using AI-driven insights to help you achieve your professional goals efficiently",
 };
 
 export default function RootLayout({ children }) {
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
           {/* footer */}
           <footer className="bg-muted/50 py-12">
             <div className="container mx-auto px-4 text-center text-gray-200">
-              <p>Made with next.js</p>
+              <p>🚀 Built with Next.js • Fueled by Gemini AI • Crafted for Curious Minds</p>
             </div>
           </footer>
         </ThemeProvider>

@@ -47,7 +47,7 @@ const imageElement = imageRef.current;
                     Get Started
                 </Button>
             </Link>
-            <Link href="https://www.youtube.com/roadsidecoder">
+            <Link href="/demovideo">
                 <Button size="lg" className="px-8" variant="outline">
                     Watch Demo
                 </Button>
@@ -57,10 +57,10 @@ const imageElement = imageRef.current;
         <div className='hero-image-wrapper mt-5 md:mt-0'>
             <div ref={imageRef} className='hero-image'>
                 <Image
-                src={"/banner.jpeg"}
+                src={"/banner.png"}
                 width={1280}
                 height={720}
-                alt="Banner Sensai"
+                alt="Banner Tensai"
                 className='rounded-lg shadow-2x1 border mx-auto'
                 priority
                 />

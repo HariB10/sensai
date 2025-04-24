@@ -6,6 +6,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+@media print {
+  #resume-pdf {
+    background: white;
+    color: black;
+  }
+  
+  #resume-pdf * {
+    color: black;
+  }
+  
+  #resume-pdf a {
+    color: blue;
+    text-decoration: underline;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

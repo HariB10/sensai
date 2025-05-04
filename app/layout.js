@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
           {/* footer */}
           <footer className="bg-muted/50 py-12">
             <div className="container mx-auto px-4 text-center text-gray-200">
-              <p>🚀 Built with Next.js • Fueled by Gemini AI • Crafted for Curious Minds</p>
+              <p>🚀 Built with Next.js • Fueled by Gemini AI </p>
             </div>
           </footer>
         </ThemeProvider>
